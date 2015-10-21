@@ -51,27 +51,6 @@ INSERT INTO `barang` (`id`, `nmbarang`, `model`, `kondisi`, `tgl`, `pemberi`, `p
 (10, 'modem', 'tplink', 'Tidak Baik', '2015-07-30', 'anggri', 'rozi', 'adapter');
 
 -- --------------------------------------------------------
-
---
--- Table structure for table `user`
---
-
-CREATE TABLE IF NOT EXISTS `user` (
-  `id` int(5) NOT NULL AUTO_INCREMENT,
-  `user` varchar(100) NOT NULL,
-  `pass` varchar(100) NOT NULL,
-  `level` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
-
---
--- Dumping data for table `user`
---
-
-INSERT INTO `user` (`id`, `user`, `pass`, `level`) VALUES
-(1, 'admin', 'admin', 1),
-(2, 'user', 'user', 2);
-
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
